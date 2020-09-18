@@ -1,0 +1,4 @@
+# 使用环境的配置设置
+spring:
+  profiles:
+    active: dev
