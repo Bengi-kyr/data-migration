@@ -24,8 +24,8 @@ spring:
           driver-class-name: com.mysql.cj.jdbc.Driver
         oracle:
           url: jdbc:oracle:thin:@47.114.36.16:1521:ora11g
-          username: duration
-          password: Duration_123
+          username: duration_dev
+          password: duration_dev_123
           driver-class-name: oracle.jdbc.OracleDriver
 # 日志设置
 logging:

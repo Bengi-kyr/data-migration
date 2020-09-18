@@ -18,14 +18,14 @@ spring:
       strict: false
       datasource:
         mysql:
-          url: jdbc:mysql://47.99.156.87:3306/ibms_dev?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&serverTimezone=GMT%2B8
+          url: jdbc:mysql://127.0.0.1:3306/schema?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&serverTimezone=GMT%2B8
           username: root
-          password: Zrttest@1
+          password: password
           driver-class-name: com.mysql.cj.jdbc.Driver
         oracle:
-          url: jdbc:oracle:thin:@47.114.36.16:1521:ora11g
-          username: duration_dev
-          password: duration_dev_123
+          url: jdbc:oracle:thin:@127.0.0.1:1521:ora11g
+          username: user
+          password: password
           driver-class-name: oracle.jdbc.OracleDriver
 # 日志设置
 logging:
